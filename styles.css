@@ -59,3 +59,33 @@ body{
   left: 10%;
   background: #819CAF;
 }
+
+.eye-left{
+  position: absolute;
+  background: white;
+  width: 30%;
+  height: 33%;
+  top: 25%;
+  left: 21%;
+  border-radius: 50%;
+  z-index: 3;
+}
+.eye-right{
+  position: absolute;
+  background: white;
+  width: 30%;
+  height: 33%;
+  top: 25%;
+  right: 21%;
+  border-radius: 50%;
+  z-index: 2;
+}
+.pupil{
+  position: absolute;
+  width: 28%;
+  height: 30%;
+  top: 55%;
+  left: 49%;
+  border-radius: 50%;
+  background: #27354A;
+}
