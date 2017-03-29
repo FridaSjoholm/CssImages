@@ -176,7 +176,7 @@ body{
   border-radius: 50%;
   width: 50%;
   height: 50%;
-  top: 20%;
+  top: 23%;
   left: 20%;
   background: Pink;
   z-index: 2;
@@ -206,19 +206,39 @@ body{
   position: absolute;
   width: 28%;
   height: 30%;
-  top: 50%;
-  left: 45%;
+  top: 20%;
+  left: 25%;
   border-radius: 50%;
   background: #27354A;
 }
 
 .pig-nose{
   position: absolute;
-  background: #BE845F;
-  width: 25%;
-  height: 42.5%;
-  left: 37%;
-  top: 45%;
+  background: pink;
+  width: 45%;
+  height: 32.5%;
+  left: 27%;
+  top: 47%;
   border-radius: 50px;
   z-index: 4;
+}
+
+.pig-nostril-left{
+  position: absolute;
+  width: 12%;
+  height: 30%;
+  top: 40%;
+  left: 25%;
+  border-radius: 50%;
+  background: LightCoral;
+}
+
+.pig-nostril-right{
+  position: absolute;
+  width: 12%;
+  height: 30%;
+  top: 40%;
+  right: 25%;
+  border-radius: 50%;
+  background: LightCoral;
 }
