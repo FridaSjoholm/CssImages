@@ -254,6 +254,7 @@ body{
   height: 70%;
   background: PeachPuff;
   border-radius: 50%;
+  overflow:hidden;
 }
 .alex .head-copy{
   width: 100%;
@@ -263,22 +264,41 @@ body{
   border-radius: 50%;
   z-index: 2;
 }
+.alex .hair{
+  position: absolute;
+  top: -16.5%;
+  left: 15%;
+  width: 150%;
+  height: 80%;
+  background: tan;
+  border-radius: 50%;
+  z-index: 4;
+}
 
 .alex .eye-left{
   position: absolute;
   background: white;
-  width: 30%;
-  height: 33%;
-  top: 25%;
-  left: 21%;
+  width: 20%;
+  height: 20%;
+  top: 29%;
+  left: 5%;
   border-radius: 50%;
   z-index: 3;
+}
+.alex .iris{
+  position: absolute;
+  width: 38%;
+  height: 40%;
+  top: 30%;
+  left: 20%;
+  border-radius: 50%;
+  background:PowderBlue ;
 }
 .alex .pupil{
   position: absolute;
   width: 28%;
   height: 30%;
-  top: 20%;
+  top: 40%;
   left: 25%;
   border-radius: 50%;
   background: #27354A;
@@ -287,10 +307,20 @@ body{
 .alex .nose{
   position: absolute;
   background: PeachPuff;
-  width: 70%;
-  height: 60%;
-  left: -10%;
-  top: 15%;
+  width: 20%;
+  height: 30%;
+  left: 20%;
+  top: 37%;
   -webkit-clip-path: polygon(36% 1%, 100% 56%, 38% 88%, 1% 85%);
   z-index: 1;
+}
+.alex .bun{
+  position: absolute;
+  top: 30%;
+  left: 69%;
+  width: 22%;
+  height: 35%;
+  background: tan;
+  border-radius: 50%;
+  z-index: 4;
 }
