@@ -324,3 +324,14 @@ body{
   border-radius: 50%;
   z-index: 4;
 }
+
+.alex .beard{
+  position: absolute;
+  top: 5%;
+  left: 13%;
+  width: 70%;
+  height: 90%;
+  background: tan;
+  -webkit-clip-path: polygon(36% 69%, 100% 36%, 31% 100%, 17% 100%, 11% 86%, 19% 75%, 11% 74%, 16% 63%);
+  z-index: 4;
+}
