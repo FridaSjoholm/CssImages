@@ -1,7 +1,7 @@
 body{
   background: CadetBlue;
 }
-.koala-box{
+.koala{
   position: relative;
   margin: auto;
   display: block;
@@ -10,8 +10,7 @@ body{
   height: 420px;
   background: White;
 }
-
-.head{
+.koala .head{
   position: absolute;
   top: 16.5%;
   left: 25%;
@@ -20,8 +19,7 @@ body{
   background: #A6BECF;
   border-radius: 50%;
 }
-
-.head-copy{
+.koala .head-copy{
   width: 100%;
   height: 100%;
   position: absolute;
@@ -30,7 +28,7 @@ body{
   z-index: 2;
 }
 
-.ear-left{
+.koala .ear-left{
   position: absolute;
   width: 60%;
   height: 65%;
@@ -40,7 +38,7 @@ body{
   border-radius: 50%;
   z-index: 1;
 }
-.ear-right{
+.koala .ear-right{
   position: absolute;
   width: 60%;
   height: 65%;
@@ -50,7 +48,7 @@ body{
   border-radius: 50%;
   z-index: 1;
 }
-.inner-ear{
+.koala .inner-ear{
   position: absolute;
   border-radius: 50%;
   width: 80%;
@@ -60,7 +58,7 @@ body{
   background: #819CAF;
 }
 
-.eye-left{
+.koala .eye-left{
   position: absolute;
   background: white;
   width: 30%;
@@ -70,7 +68,7 @@ body{
   border-radius: 50%;
   z-index: 3;
 }
-.eye-right{
+.koala .eye-right{
   position: absolute;
   background: white;
   width: 30%;
@@ -80,7 +78,7 @@ body{
   border-radius: 50%;
   z-index: 2;
 }
-.pupil{
+.koala .pupil{
   position: absolute;
   width: 28%;
   height: 30%;
@@ -90,7 +88,7 @@ body{
   background: #27354A;
 }
 
-.nose{
+.koala .nose{
   position: absolute;
   background: #BE845F;
   width: 25%;
@@ -101,7 +99,7 @@ body{
   z-index: 4;
 }
 
-.hair-left{
+.koala .hair-left{
   position: absolute;
   top: -8%;
   left: 30%;
@@ -111,7 +109,7 @@ body{
   -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
-.hair-right{
+.koala .hair-right{
   position: absolute;
   top: -4%;
   left: 48%;
@@ -122,7 +120,7 @@ body{
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
 
-.pig-box{
+.pig{
   position: relative;
   margin: auto;
   display: block;
@@ -131,8 +129,7 @@ body{
   height: 420px;
   background: White;
 }
-
-.pig-head{
+.pig .head{
   position: absolute;
   top: 16.5%;
   left: 25%;
@@ -141,8 +138,7 @@ body{
   background: MistyRose;
   border-radius: 50%;
 }
-
-.pig-head-copy{
+.pig .head-copy{
   width: 100%;
   height: 100%;
   position: absolute;
@@ -151,7 +147,7 @@ body{
   z-index: 2;
 }
 
-.pig-ear-left{
+.pig .ear-left{
   position: absolute;
   width: 60%;
   height: 65%;
@@ -161,7 +157,7 @@ body{
   -webkit-clip-path: polygon(40% 8%, 76% 19%, 100% 41%, 57% 100%, 15% 76%, 5% 45%, 8% 13%);
   z-index: 1;
 }
-.pig-ear-right{
+.pig .ear-right{
   position: absolute;
   width: 60%;
   height: 65%;
@@ -171,7 +167,7 @@ body{
   -webkit-clip-path: polygon(60% 8%, 24% 19%, 0% 41%, 43% 100%, 85% 76%, 95% 45%, 92% 13%);
   z-index: 1;
 }
-.pig-inner-ear{
+.pig .inner-ear{
   position: absolute;
   border-radius: 50%;
   width: 50%;
@@ -182,7 +178,7 @@ body{
   z-index: 2;
 }
 
-.pig-eye-left{
+.pig .eye-left{
   position: absolute;
   background: white;
   width: 30%;
@@ -192,7 +188,7 @@ body{
   border-radius: 50%;
   z-index: 3;
 }
-.pig-eye-right{
+.pig .eye-right{
   position: absolute;
   background: white;
   width: 30%;
@@ -202,7 +198,7 @@ body{
   border-radius: 50%;
   z-index: 2;
 }
-.pig-pupil{
+.pig .pupil{
   position: absolute;
   width: 28%;
   height: 30%;
@@ -212,7 +208,7 @@ body{
   background: #27354A;
 }
 
-.pig-nose{
+.pig .nose{
   position: absolute;
   background: pink;
   width: 45%;
@@ -222,8 +218,7 @@ body{
   border-radius: 50px;
   z-index: 4;
 }
-
-.pig-nostril-left{
+.pig .nostril-left{
   position: absolute;
   width: 12%;
   height: 30%;
@@ -232,8 +227,124 @@ body{
   border-radius: 50%;
   background: LightCoral;
 }
+.pig .nostril-right{
+  position: absolute;
+  width: 12%;
+  height: 30%;
+  top: 40%;
+  right: 25%;
+  border-radius: 50%;
+  background: LightCoral;
+}
 
-.pig-nostril-right{
+.alex{
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  width: 600px;
+  height: 420px;
+  background: White;
+}
+.alex .head{
+  position: absolute;
+  top: 16.5%;
+  left: 25%;
+  width: 50%;
+  height: 67%;
+  background: PeachPuff;
+  border-radius: 50%;
+}
+.alex .head-copy{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background:PeachPuff;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.alex .ear-left{
+  position: absolute;
+  width: 60%;
+  height: 65%;
+  left: -20%;
+  top: -10%;
+  background: MistyRose;
+  -webkit-clip-path: polygon(40% 8%, 76% 19%, 100% 41%, 57% 100%, 15% 76%, 5% 45%, 8% 13%);
+  z-index: 1;
+}
+.alex .ear-right{
+  position: absolute;
+  width: 60%;
+  height: 65%;
+  right: -20%;
+  top: -10%;
+  background: MistyRose;
+  -webkit-clip-path: polygon(60% 8%, 24% 19%, 0% 41%, 43% 100%, 85% 76%, 95% 45%, 92% 13%);
+  z-index: 1;
+}
+.alex .inner-ear{
+  position: absolute;
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+  top: 23%;
+  left: 25%;
+  background: LightCoral;
+  z-index: 2;
+}
+
+.alex .eye-left{
+  position: absolute;
+  background: white;
+  width: 30%;
+  height: 33%;
+  top: 25%;
+  left: 21%;
+  border-radius: 50%;
+  z-index: 3;
+}
+.alex .eye-right{
+  position: absolute;
+  background: white;
+  width: 30%;
+  height: 33%;
+  top: 25%;
+  right: 21%;
+  border-radius: 50%;
+  z-index: 2;
+}
+.alex .pupil{
+  position: absolute;
+  width: 28%;
+  height: 30%;
+  top: 20%;
+  left: 25%;
+  border-radius: 50%;
+  background: #27354A;
+}
+
+.alex .nose{
+  position: absolute;
+  background: pink;
+  width: 45%;
+  height: 32.5%;
+  left: 27%;
+  top: 47%;
+  border-radius: 50px;
+  z-index: 4;
+}
+.alex .nostril-left{
+  position: absolute;
+  width: 12%;
+  height: 30%;
+  top: 40%;
+  left: 25%;
+  border-radius: 50%;
+  background: LightCoral;
+}
+.alex .nostril-right{
   position: absolute;
   width: 12%;
   height: 30%;
