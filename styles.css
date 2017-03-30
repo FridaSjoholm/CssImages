@@ -158,7 +158,7 @@ body{
   left: -20%;
   top: -10%;
   background: MistyRose;
-  -webkit-clip-path: polygon(41% 8%, 76% 19%, 100% 41%, 57% 100%, 15% 76%, 5% 45%, 8% 13%);
+  -webkit-clip-path: polygon(40% 8%, 76% 19%, 100% 41%, 57% 100%, 15% 76%, 5% 45%, 8% 13%);
   z-index: 1;
 }
 .pig-ear-right{
@@ -166,9 +166,9 @@ body{
   width: 60%;
   height: 65%;
   right: -20%;
-  top: 5%;
-  background: #A6BECF;
-  border-radius: 50%;
+  top: -10%;
+  background: MistyRose;
+  -webkit-clip-path: polygon(60% 8%, 24% 19%, 0% 41%, 43% 100%, 85% 76%, 95% 45%, 92% 13%);
   z-index: 1;
 }
 .pig-inner-ear{
@@ -177,8 +177,8 @@ body{
   width: 50%;
   height: 50%;
   top: 23%;
-  left: 20%;
-  background: Pink;
+  left: 25%;
+  background: LightCoral;
   z-index: 2;
 }
 
